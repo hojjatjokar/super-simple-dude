@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Form Name</h2>
+        <div class="form-control">
+          <label for="username">User Name</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Enter user name"
+          />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Enter email"
+          />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter password"
+          />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="passwordConfirm">Confirm Password</label>
+          <input
+            type="password"
+            name="passwordConfirm"
+            id="passwordConfirm"
+            placeholder="Enter password"
+          />
+          <small>Error Message</small>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
