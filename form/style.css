@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 :root {
-  --success-color: #2ecc71;
-  --error-color: #e74c3c;
-  --primary-color: #3498db;
+  --success-color: #2a9d8f;
+  --error-color: #e76f51;
+  --primary-color: #264653;
+  --warning-color: #e9c46a;
+  --gray: #e9ecef;
+  --grayDark: #dee2e6;
+  --grayDarker: #ced4da;
+  --grayDarkest: #343a40;
 }
 
 * {
@@ -11,7 +16,7 @@
 }
 
 body {
-  background: #f9fafb;
+  background: var(--gray);
   font-family: 'Open Sans', sans-serif;
   display: flex;
   justify-content: center;
@@ -23,7 +28,7 @@ body {
 .container {
   border-radius: 4px;
   background-color: #fff;
-  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 h2 {
@@ -43,13 +48,13 @@ h2 {
 }
 
 .form-control label {
-  color: #777;
+  color: var(--grayDarkest);
   display: block;
   margin-bottom: 5px;
 }
 
 .form-control input {
-  border: 1px solid #f0f0f0;
+  border: 1px solid var(--grayDark);
   display: block;
   border-radius: 4px;
   padding: 10px;
@@ -59,7 +64,7 @@ h2 {
 
 .form-control input:focus {
   outline: 0;
-  border-color: #f0f0f0;
+  border-color: var(--grayDark);
 }
 
 .form-control.success input {
