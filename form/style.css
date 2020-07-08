@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 :root {
   --success-color: #2a9d8f;
@@ -17,7 +17,7 @@
 
 body {
   background: var(--gray);
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
