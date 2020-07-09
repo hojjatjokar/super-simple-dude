@@ -6,4 +6,4 @@
 
 - Seating
   [Source code](https://github.com/hojjatjokar/super-simple-dude/tree/main/seating) -
-  Demo (WIP)
+  [Demo](https://hojjatjokar.github.io/super-simple-dude/seating/)
