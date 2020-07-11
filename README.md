@@ -7,3 +7,7 @@
 - Seating
   [Source code](https://github.com/hojjatjokar/super-simple-dude/tree/main/seating) -
   [Demo](https://hojjatjokar.github.io/super-simple-dude/seating/)
+
+- Video Player
+  [Source code](https://github.com/hojjatjokar/super-simple-dude/tree/main/videoPlayer) -
+  [Demo](https://hojjatjokar.github.io/super-simple-dude/videoPlayer/)
